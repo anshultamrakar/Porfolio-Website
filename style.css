@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Galdeano&display=swap");
+
+body {
+  font-family: "Galdeano", sans-serif;
+}
+hr {
+  margin: 1rem 0rem;
+}
+:root {
+  --primary-color: rgb(49, 46, 235);
+  --text-color: rgb(253, 253, 253);
+  --offwhite-color: rgb(209, 208, 208);
+}
+.non-bullets {
+  list-style-type: none;
+  text-decoration: none;
+}
+.Inline-list {
+  display: inline;
+  padding: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 0.5rem 0.5rem;
+  text-align: right;
+  border-bottom-left-radius: 2rem;
+}
+.nav-list {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: large;
+}
+.nav-name {
+  text-align: left;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.hero-img {
+  max-width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-heading {
+  text-align: center;
+  color: grey;
+  max-width: 600px;
+  margin: auto;
+}
+.p {
+  font-size: x-large;
+}
+.section h1 {
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem;
+}
+.ow {
+  background-color: var(--offwhite-color);
+  padding: 2rem;
+}
+.container-centered {
+  padding-bottom: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: solid black;
+}
+
+.container-centered {
+  padding-bottom: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+.secondary-link {
+  background-color: var(--offwhite-color);
+  color: var(--text-color);
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.foot {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  border-top-right-radius: 2rem;
+  text-align: center;
+}
+
+.Head {
+  color: white;
+}
+.footer-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.img {
+  width: 3%;
+  height: 3%;
+  object-fit: contain;
+  background-color: var(--primary-color);
+}
